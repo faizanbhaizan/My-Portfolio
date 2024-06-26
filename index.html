@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="PotfolioWebsite.css">
+    <script
+      src="https://kit.fontawesome.com/fb22eebb87.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-container">
+                    <img src="F logo.png" class="logo" alt="">
+                    <div class="logo-text">aizan Ahmed</div>
+                </div>
+                <div class="nav-items">
+                 <div><a href="#projects">Projects</a></div>
+                 <div><a href="#skills">Skills</a></div>
+                 <div><a href="#contactme">Contact Me</a></div>
+
+                </div>
+            </div>
+        </div>
+        <div class=" absolute faded-text">MD FAIZAN AHMED</div>
+        <div class="hero-sec">
+
+            <div class="hero-sec-left">
+                <div class="hero-sec-heading">Aslam-o-Alaikum</div>
+                <div class="hero-sec-sub-heading hero-sec-heading">
+                    I am a <span class="role"></span>
+                </div>
+                <div class="hero-sec-description">
+                    I am a tech enthusiast and developer . Here is my portfolio website.
+                    Here you'll learn about my journey as a software developer.
+                </div>
+                <div class="button" id="btn">Hire Me</div>
+            </div>
+            <div class="hero-sec-right">
+                <div class="absolute icons icon-dot">
+                    <img src="dots.png" alt="">
+                </div>
+                <div class="absolute icons icon-circle">
+                    <img src="circle.png" alt="">
+                </div>
+                <div class="absolute icons icon-cube">
+                    <img src="cube.png" alt="">
+                </div>
+                <div class="absolute icons icon-plus">
+                    <img src="plus.png" alt="">
+                </div>
+                <div class="absolute icons icon-zigzag">
+                    <img src="zigzags.png" alt="">
+                </div>
+                <div class="user-image">
+                    <img class="FaizanPic" src="1.jpg" alt="">
+                </div>
+            </div>
+           
+        </div>
+        <!--<div class="project-container">
+            <div class="project-card" id="project1">
+             <div class="project-number">01</div>
+             <div class="project-content">
+                <div class="project-skills-container">
+                    <img class="project-skills" src="HTML.png" alt="">
+                     you can add as many as skills images
+                </div>
+                <h2 class="project-heading">Project Name</h2>
+                <div class="project-sub-heading"> text ............</div>
+                <div class="btn-group">
+                    <button class="button btn-project">Read More</button>
+                    <a href=""> 
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                    </a>
+                    <a href=""> 
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                    </a>
+                </div>
+             </div>
+            </div>
+        </div>-->
+        <div class="contactus-container">
+            <div class="container">
+                <h1 class="contactus-heading">Contact Me</h1>
+                <h3 class="contactus-sub-heading">
+                  Questions, Thoughts, Ideas or Just Want To Say Hello?
+                </h3>
+
+                <div class="contactus-form-container">
+                    <form action="">
+                        <div class="formfield-container">
+                            <input class="formfield" type="text" name="name" placeholder="Enter your name"/>
+                            <input class="formfield" type="email" name="email" placeholder="Enter your email address"/>
+                            <input class="formfield" type="text" name="subject" placeholder="Enter your subject"/>
+                            <textarea name="message" id="" cols="30" rows="10" class="formfield formfiel-textarea" placeholder="Enter your message"></textarea>
+
+                        </div>
+                        <div>
+                            <button type="submit" class="button" id="submit-btn">
+                                Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-fadded-text">Faizan</div>
+                    <div class="link-wrapper">
+                        <div>
+                            <a href="#projects">Projects</a>
+                        </div>
+                        <div>
+                            <a href="#skills">Skills</a>
+                        </div>
+                        <div>
+                            <a href="#contactme">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="icon-wrapper">
+                        <i class="fa-brands fa-linkedin icon"></i>
+                        <i class="fa-brands fa-github icon"></i>
+                        <i class="fa-brands fa-twitter icon"></i>
+                        <i class="fa-brands fa-instagram icon"></i>
+                        <i class="fa-regular fa-envelope icon"></i>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js"></script>
+    <script>
+        var typeData=new Typed(".role",{
+            strings: [
+                "Md Faizan Ahmed",
+                "Software Developer",
+                "Coder",
+                "Data Analyst",
+                "Finance Trader",
+                "AI & ML Engineer",
+                "Founder : Margdarshan",
+
+            ],
+            loop:true,
+            typeSpeed:100,
+            backSpeed:80,
+            backDelay:1000,
+        });
+    </script>
+</body>
+</html>
